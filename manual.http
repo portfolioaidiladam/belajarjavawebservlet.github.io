@@ -1,0 +1,26 @@
+
+## Login
+
+http://localhost:8080/session/login?username=aidil
+
+## Post untuk di materi request body
+http://localhost:8080/api/say-hello
+Header
+X-API value Rahasia
+{
+   "firstName" : "Aidil",
+   "lastName" : "Adam"
+}
+
+## COOKIE
+#Post Cookie
+param:
+Key             value
+name            X-emai-id    / X-user_id
+value           aidil.adam@gmail.com   /   aidil
+
+http://localhost:8080/cookie?name=X-emai-id&value=aidil.adam@gmail.com
+cek di cookienya (harusnya sudah masuk)
+
+# Get Cookie
+http://localhost:8080/cookie
